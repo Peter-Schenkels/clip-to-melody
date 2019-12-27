@@ -1,2 +1,3 @@
 pip install moviepy
+pip install mido
 pip install pygame
