@@ -8,7 +8,7 @@ from video_generator import clips_to_song
 #turn clip into music notes
 clip_file_location = input("give clip file location:")
 export_location = input("give clips export location:")
-note_range = input("give note range:")
+note_range = input("give note range (atleast the delta range of the lowest and highest note in your midi file):")
 clip_to_notes(clip_file_location, export_location, note_range)
 
 #turn midi into song
